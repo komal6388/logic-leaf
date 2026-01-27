@@ -18,6 +18,7 @@ export default function ContactUs() {
     return (
         <section className="bg-linear-to-b md:h-[90vh] h-auto flex items-center from-[#faf7ff] to-white py-16 px-4">
             <div className="max-w-6xl mx-auto">
+                {/* komal */}
 
                 {/* Heading */}
                 <div className="text-center mb-12">
