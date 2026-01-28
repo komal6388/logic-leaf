@@ -32,7 +32,7 @@ export default function Case_Study() {
     ];
     return (
         <>
-            <div className="case-study-con-parent container mx-auto mt-15  lg:px-50">
+            <div className="case-study-con-parent  mt-15  ">
                 {
                     CASE_STUDIES_DATA.map((ele) => {
                         return <div key={ele.id} className={`case-study-card ${ele.themeColor}`}>

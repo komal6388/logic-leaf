@@ -24,7 +24,7 @@ export default function Home() {
     <>
       <section id='banner-sec' className='section-pad' >
         <div className="banner-sec-wrapper">
-          <div className="container mx-auto">
+          <div className="lg:w-[75%] mx-auto">
             <div className="grid grid-cols-12">
               <div className='md:col-span-5 col-span-12 ' >
                 <div className="banner-text-wrap h-full  flex items-center ">
@@ -71,7 +71,7 @@ export default function Home() {
         </div>
       </section>
       <section id='leading-comp' className='section-pad' >
-        <div className="container mx-auto  lg:px-30 leading-com-wrapper">
+        <div className="lg:w-[75%] mx-auto   leading-com-wrapper">
           <div className="grid grid-cols-12">
             <div className=" md:col-span-5 col-span-12 ">
               <div className="leading-comp-text-parent text-left h-full flex items-center " >
@@ -111,7 +111,7 @@ export default function Home() {
 
       </section>
       <section id='customer-review' className='section-pad light-purple-bg' >
-        <div className="customer-review-wrapper text-center container mx-auto">
+        <div className="customer-review-wrapper text-center lg:w-[75%] mx-auto">
           <div className='flex justify-center ' >
             <div className="common-head-parent ">
               <h4 className='common-section-head' >
@@ -132,7 +132,7 @@ export default function Home() {
 
       </section>
       <section id='case-study' className='section-pad' >
-        <div className="case-study-wrapper conatiner mx-auto ">
+        <div className="case-study-wrapper lg:w-[75%] mx-auto ">
           <div className='flex justify-center text-center ' >
             <div className="common-head-parent ">
               <h4 className='common-section-head' >
@@ -155,7 +155,7 @@ export default function Home() {
 
       </section>
       <section id='wayto-build' className='light-purple-bg section-pad' >
-        <div className="wayto-build-wrapper container mx-auto lg:px-50">
+        <div className="wayto-build-wrapper lg:w-[75%] mx-auto ">
           <div className='flex justify-center text-center ' >
             <div className="common-head-parent ">
               <h4 className='common-section-head' >
@@ -176,7 +176,7 @@ export default function Home() {
 
       </section>
       <section id='our-design' className=' section-pad' >
-        <div className="our-design-wrapper container mx-auto lg:px-50">
+        <div className="our-design-wrapper lg:w-[75%] mx-auto">
           <div className='flex justify-center text-center ' >
             <div className="common-head-parent ">
               <h4 className='common-section-head' >
@@ -210,7 +210,7 @@ export default function Home() {
 
       </section>
       <section id='how-works' className='section-pad ' >
-        <div className="how-works-wrapper container mx-auto">
+        <div className="how-works-wrapper lg:w-[75%]  mx-auto">
           <div className='flex justify-center text-center ' >
             <div className="common-head-parent ">
               <h4 className='common-section-head' >
@@ -222,9 +222,9 @@ export default function Home() {
           </div>
 
           <div className="how-works-content-parent mt-15 ">
-            <div className="how-works-top-part grid gap-5 md:grid-cols-3 grid-cols-1">
+            <div className="how-works-top-part grid  md:grid-cols-3 grid-cols-1">
               <div className="how-works-card ">
-                <div className="md:max-w-75 how-works-maincard border border-[#B13A7E] mx-auto p-5 bg-white rounded-xl shadow-md 
+                <div className="md:w-[75%] how-works-maincard border border-[#B13A7E] mx-auto p-5 bg-white rounded-xl shadow-md 
            hover:shadow-xl transition-all duration-300"  >
                   <h3 className='how-works-title mb-2' ><span className='txt-color' >#1</span>Assemble the right team</h3>
                   <p className='how-works-subtitle text-gray-500 text-[14px]' >
@@ -237,7 +237,7 @@ export default function Home() {
 
               </div>
               <div className="how-works-card ">
-                <div className="md:max-w-75 how-works-maincard  border border-[#B13A7E] mx-auto p-5 bg-white rounded-xl shadow-md 
+                <div className="md:w-[75%] how-works-maincard  border border-[#B13A7E] mx-auto p-5 bg-white rounded-xl shadow-md 
            hover:shadow-xl transition-all duration-300"  >
                   <h3 className='how-works-title mb-2' ><span className='txt-color' >#1</span>Assemble the right team</h3>
                   <p className='how-works-subtitle flex-1 text-gray-500 text-[14px]' >
@@ -250,7 +250,7 @@ export default function Home() {
 
               </div>
               <div className="how-works-card ">
-                <div className="md:max-w-75 how-works-maincard  border border-[#B13A7E] mx-auto p-5 bg-white rounded-xl shadow-md 
+                <div className="md:w-[75%] how-works-maincard  border border-[#B13A7E] mx-auto p-5 bg-white rounded-xl shadow-md 
            hover:shadow-xl transition-all duration-300"  >
                   <h3 className='how-works-title mb-2' ><span className='txt-color' >#1</span>Assemble the right team</h3>
                   <p className='how-works-subtitle  text-gray-500 text-[14px]' >
@@ -269,9 +269,9 @@ export default function Home() {
               <img src={howworks} className='w-full' alt="" />
 
             </div>
-            <div className="how-works-bottom-part grid  gap-5 md:grid-cols-3 grid-cols-1">
+            <div className="how-works-bottom-part grid   md:grid-cols-3 grid-cols-1">
               <div className="how-works-card flex justify-end ">
-                <div className="md:max-w-75 how-works-maincard  border border-[#B13A7E]  p-5 bg-white rounded-xl shadow-md 
+                <div className="md:w-[75%] how-works-maincard  border border-[#B13A7E]  p-5 bg-white rounded-xl shadow-md 
            hover:shadow-xl transition-all duration-300"  >
                   <h3 className='how-works-title mb-2' ><span className='txt-color' >#1</span>Assemble the right team</h3>
                   <p className='how-works-subtitle flex-1  text-gray-500 text-[14px]' >
@@ -284,7 +284,7 @@ export default function Home() {
 
               </div>
               <div className="how-works-card flex justify-end ">
-                <div className="md:max-w-75 how-works-maincard  border border-[#B13A7E]  p-5 bg-white rounded-xl shadow-md 
+                <div className="md:w-[75%] how-works-maincard  border border-[#B13A7E]  p-5 bg-white rounded-xl shadow-md 
            hover:shadow-xl transition-all duration-300"  >
                   <h3 className='how-works-title mb-2' ><span className='txt-color' >#1</span>Assemble the right team</h3>
                   <p className='how-works-subtitle flex-1 text-gray-500 text-[14px]' >
@@ -297,7 +297,7 @@ export default function Home() {
 
               </div>
               <div className="how-works-card flex justify-end ">
-                <div className="md:max-w-75 how-works-maincard how-works-lastcard  border border-[#B13A7E]  p-5 bg-white rounded-xl shadow-md 
+                <div className="md:w-[75%] how-works-maincard how-works-lastcard  border border-[#B13A7E]  p-5 bg-white rounded-xl shadow-md 
            hover:shadow-xl transition-all duration-300"  >
                   <h3 className='how-works-title mb-2' ><span className='txt-color' >#1</span>Assemble the right team</h3>
                   <p className='how-works-subtitle    text-gray-500 text-[14px]' >

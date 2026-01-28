@@ -83,7 +83,7 @@ export default function Services() {
                     spaceBetween={30}
                     speed={1000} 
                     autoplay={{
-                        delay: 1000,
+                        delay: 3000,
                         disableOnInteraction: false,
                         pauseOnMouseEnter: true,
                     }}

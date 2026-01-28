@@ -67,7 +67,9 @@ export default function Header() {
         </div>
 
         <ul className="flex flex-col gap-4 p-4">
-          <li><a href="#">Home</a></li>
+          <li><NavLink to="/" className={({ isActive }) =>
+            isActive ? "text-[#57007B] font-bold" : "text-gray-500"
+          } >Home</NavLink></li>
           <li><a href="#">About Us</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">Case Studies</a></li>
@@ -76,12 +78,12 @@ export default function Header() {
           <li><a href="#">Hire</a></li>
 
           <li>
-            <a
-              href="#"
-              className="block section-btn px-4 py-2 rounded text-center"
+            <NavLink
+              to="/contactus"
+              className=" hidden md:inline-block section-btn px-4 py-2 rounded text-center"
             >
               Contact Us
-            </a>
+            </NavLink>
           </li>
         </ul>
       </div>

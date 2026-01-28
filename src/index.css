@@ -350,7 +350,7 @@ body {
 .how-works-title {
   display: flex;
   gap: 5px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
 }
 
@@ -422,7 +422,7 @@ body {
 
 }
 .how-works-bottom-part .how-works-maincard::after{
-  bottom: 100% !important;
+  bottom: 95% !important;
   /* left: 70%; */
   top: unset;
   margin-bottom: 10px;
@@ -535,6 +535,10 @@ position: relative;
 .ctasec-heading{
   font-size: 18px;
   /* font-weight: bold; */
+}
+.how-works-bottom-part .how-works-maincard{
+  margin-top: 0px;
+  margin-bottom: 40px;
 }
 }
 .cta-button-parent{

@@ -122,13 +122,13 @@ export default function Tabs() {
             </div>
 
             {/* Tab Content */}
-            <div className="mt-6 rounded-lg border border-gray-200 bg-white p-10 shadow-sm">
+            <div className="mt-6 rounded-lg border border-gray-200 bg-white md:p-10 p-5 shadow-sm">
                 <div className="tabcontent-img-parent flex flex-wrap md:gap-16 gap-10 justify-center">
                     {
                         activeTabData.images.map((ele) => {
 
                             return <div className="text-center" >
-                                <img src={ele.src} className="w-15 h-15 mb-2 mx-auto" alt="" />
+                                <img src={ele.src} className="md:w-15 md:h-15 w-10 h-10 mb-2 mx-auto" alt="" />
                                 <p className="text-[15px]" >{ele.name}</p>
                             </div>
                         })

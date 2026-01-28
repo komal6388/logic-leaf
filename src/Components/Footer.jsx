@@ -10,7 +10,7 @@ const Footer = () => {
     <footer className="bg-gray-900 text-gray-300">
       {/* Top Section */}
       <div className="max-w-7xl mx-auto px-6 py-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
-        
+
         {/* Company Info */}
         <div>
           <h2 className="text-2xl font-bold text-white mb-4">LOGIC LEAF</h2>
@@ -18,7 +18,7 @@ const Footer = () => {
             We provide cutting-edge IT solutions including web development,
             cloud services, cybersecurity, and digital transformation.
           </p>
-          <div className="flex gap-4 mt-5">
+          <div className="flex justify-center gap-4 mt-5">
             <a href="#" className="p-2 bg-gray-800 rounded-full hover:bg-blue-600 transition">
               <FaFacebookF />
             </a>
