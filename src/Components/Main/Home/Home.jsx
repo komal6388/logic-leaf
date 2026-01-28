@@ -24,7 +24,7 @@ export default function Home() {
     <>
       <section id='banner-sec' className='section-pad' >
         <div className="banner-sec-wrapper">
-          <div className="lg:w-[75%] mx-auto">
+          <div className="lg:w-[80%] mx-auto">
             <div className="grid grid-cols-12">
               <div className='md:col-span-5 col-span-12 ' >
                 <div className="banner-text-wrap h-full  flex items-center ">
@@ -71,7 +71,7 @@ export default function Home() {
         </div>
       </section>
       <section id='leading-comp' className='section-pad' >
-        <div className="lg:w-[75%] mx-auto   leading-com-wrapper">
+        <div className="lg:w-[80%] mx-auto   leading-com-wrapper">
           <div className="grid grid-cols-12">
             <div className=" md:col-span-5 col-span-12 ">
               <div className="leading-comp-text-parent text-left h-full flex items-center " >
@@ -111,7 +111,7 @@ export default function Home() {
 
       </section>
       <section id='customer-review' className='section-pad light-purple-bg' >
-        <div className="customer-review-wrapper text-center lg:w-[75%] mx-auto">
+        <div className="customer-review-wrapper text-center lg:w-[80%] mx-auto">
           <div className='flex justify-center ' >
             <div className="common-head-parent ">
               <h4 className='common-section-head' >
@@ -132,7 +132,7 @@ export default function Home() {
 
       </section>
       <section id='case-study' className='section-pad' >
-        <div className="case-study-wrapper lg:w-[75%] mx-auto ">
+        <div className="case-study-wrapper lg:w-[80%] mx-auto ">
           <div className='flex justify-center text-center ' >
             <div className="common-head-parent ">
               <h4 className='common-section-head' >
@@ -155,7 +155,7 @@ export default function Home() {
 
       </section>
       <section id='wayto-build' className='light-purple-bg section-pad' >
-        <div className="wayto-build-wrapper lg:w-[75%] mx-auto ">
+        <div className="wayto-build-wrapper lg:w-[80%] mx-auto ">
           <div className='flex justify-center text-center ' >
             <div className="common-head-parent ">
               <h4 className='common-section-head' >
@@ -176,7 +176,7 @@ export default function Home() {
 
       </section>
       <section id='our-design' className=' section-pad' >
-        <div className="our-design-wrapper lg:w-[75%] mx-auto">
+        <div className="our-design-wrapper lg:w-[80%] mx-auto">
           <div className='flex justify-center text-center ' >
             <div className="common-head-parent ">
               <h4 className='common-section-head' >
@@ -210,7 +210,7 @@ export default function Home() {
 
       </section>
       <section id='how-works' className='section-pad ' >
-        <div className="how-works-wrapper lg:w-[75%]  mx-auto">
+        <div className="how-works-wrapper lg:w-[80%]  mx-auto">
           <div className='flex justify-center text-center ' >
             <div className="common-head-parent ">
               <h4 className='common-section-head' >

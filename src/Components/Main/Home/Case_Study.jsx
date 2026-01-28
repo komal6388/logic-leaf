@@ -38,13 +38,13 @@ export default function Case_Study() {
                         return <div key={ele.id} className={`case-study-card ${ele.themeColor}`}>
 
                             <div className="grid  grid-cols-12">
-                                <div className="md:col-span-6 col-span-12">
+                                <div className="md:col-span-4 col-span-12">
                                     <div className=" h-full case-study-imgwrapper">
                                         <img className=' h-full w-full' src={ele.image} alt="" />
                                     </div>
 
                                 </div>
-                                <div className="md:col-span-6 col-span-12">
+                                <div className="md:col-span-8 col-span-12">
                                     <div className="case-study-text-parent   md:p-10 p-6">
                                         <h4 className='case-study-texthead ' >
                                             {ele.title}
